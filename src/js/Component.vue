@@ -24,12 +24,12 @@
 
 <script>
   import {removeElement, HTMLElement} from './helpers.js'
-  import trapFocusMixin from './trapFocusMixin.js';
+//  import trapFocusMixin from './trapFocusMixin.js';
   import Loaders from '../loaders/index.js';
 
   export default {
     name: 'vue-loading',
-    mixins: [trapFocusMixin],
+ //   mixins: [trapFocusMixin],
     props: {
       active: Boolean,
       programmatic: Boolean,
